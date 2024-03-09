@@ -1,6 +1,6 @@
 {
   "name": "progressive-route-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "无需迁移至约定式路由，对基于配置式路由的前端工程进行开发流程简化",
   "main": "index.js",
   "scripts": {
