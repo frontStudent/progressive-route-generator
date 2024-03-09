@@ -1,10 +1,12 @@
 {
   "name": "progressive-route-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "无需迁移至约定式路由，对基于配置式路由的前端工程进行开发流程简化",
   "main": "index.js",
   "scripts": {
     "test": "echo \"just test\" ",
+    "dev": "pnpm -C examples/app watch",
+    "publish": "pnpm publish -F progressive-route-generator",
     "prepare": "husky install"
   },
   "devDependencies": {
@@ -16,7 +18,7 @@
   "lint-staged": {
     "packages/**/*.{js,jsx}": "eslint --max-warnings=0"
   },
-  "keywords": [],
+  "keywords": ["react", "react-router"],
   "author": "",
   "license": "ISC"
 }
