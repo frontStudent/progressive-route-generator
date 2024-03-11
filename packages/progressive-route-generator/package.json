@@ -1,7 +1,7 @@
 {
   "name": "progressive-route-generator",
   "version": "1.0.5",
-  "description": "",
+  "description": "无需迁移至约定式路由，对基于配置式路由的前端工程进行开发流程简化",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,16 +13,17 @@
     "@babel/generator": "^7.23.6",
     "@babel/parser": "^7.24.0",
     "@babel/traverse": "^7.24.0",
-    "chokidar": "3.6.0",
-    "husky": "^8.0.0",
     "inquirer": "8.2.5",
-    "lodash": "^4.17.21",
     "mustache": "^4.2.0",
     "open": "^9.1.0",
     "prettier": "^3.2.5",
     "yargs": "^17.7.2"
   },
-  "keywords": [],
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "lodash": "^4.17.21"
+  },
+  "keywords": ["react", "react-router"],
   "author": "",
   "license": "ISC"
 }
