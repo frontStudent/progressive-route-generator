@@ -1,6 +1,6 @@
 {
   "name": "progressive-route-generator",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "无需迁移至约定式路由，对基于配置式路由的前端工程进行开发流程简化",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,7 @@
     "@babel/parser": "^7.24.0",
     "@babel/traverse": "^7.24.0",
     "inquirer": "8.2.5",
+    "chokidar": "3.6.0",
     "mustache": "^4.2.0",
     "open": "^9.1.0",
     "prettier": "^3.2.5",
