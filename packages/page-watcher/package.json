@@ -1,5 +1,5 @@
 {
-  "name": "page-watcher",
+  "name": "pages-watcher",
   "version": "1.0.0",
   "description": "无需迁移至约定式路由，对基于配置式路由的前端工程进行开发流程简化",
   "main": "index.js",
