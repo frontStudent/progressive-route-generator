@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"just test\" ",
     "watch": "pnpm -C examples/app watch",
-    "publish": "pnpm publish -C packages/progressive-route-generator",
+    "publish": "pnpm publish -C packages/page-watcher",
     "prepare": "husky install"
   },
   "devDependencies": {
