@@ -23,9 +23,49 @@ importers:
 
   examples/app:
     dependencies:
+      page-watcher:
+        specifier: workspace:^
+        version: link:../../packages/page-watcher
       progressive-route-generator:
         specifier: workspace:^
-        version: link:../../packages/progressive-route-generator
+        version: link:../..
+
+  packages/page-watcher:
+    dependencies:
+      '@babel/generator':
+        specifier: ^7.23.6
+        version: 7.23.6
+      '@babel/parser':
+        specifier: ^7.24.0
+        version: 7.24.0
+      '@babel/traverse':
+        specifier: ^7.24.0
+        version: 7.24.0
+      chokidar:
+        specifier: 3.6.0
+        version: 3.6.0
+      inquirer:
+        specifier: 8.2.5
+        version: 8.2.5
+      mustache:
+        specifier: ^4.2.0
+        version: 4.2.0
+      open:
+        specifier: ^9.1.0
+        version: 9.1.0
+      prettier:
+        specifier: ^3.2.5
+        version: 3.2.5
+      yargs:
+        specifier: ^17.7.2
+        version: 17.7.2
+    devDependencies:
+      husky:
+        specifier: ^8.0.0
+        version: 8.0.0
+      lodash:
+        specifier: ^4.17.21
+        version: 4.17.21
 
   packages/progressive-route-generator:
     dependencies:

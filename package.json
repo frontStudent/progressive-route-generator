@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"just test\" ",
-    "dev": "pnpm -C examples/app watch",
+    "watch": "pnpm -C examples/app watch",
     "publish": "pnpm publish -C packages/progressive-route-generator",
     "prepare": "husky install"
   },
