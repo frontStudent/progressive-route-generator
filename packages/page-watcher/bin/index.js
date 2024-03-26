@@ -35,7 +35,7 @@ const generateRoutes = (newPath, note) => {
     return;
   }
 
-  console.log("检测到新建企业文件夹：", enterpriseDir);
+  console.log("检测到企业文件夹：", enterpriseDir);
   console.log("检测到新建业务功能页面：", functionDir);
   // 有功能文件夹 检查对应企业的功能路由配置中是否已经有内容，如果有则追加写入，没有则写入初始模板
   writeFunctionRoute(enterpriseDir, functionDir, note);
@@ -44,6 +44,10 @@ const generateRoutes = (newPath, note) => {
 let timeout = 20000;
 let timer;
 let startTime = new Date().getTime();
+console.log("监听器正在对pages目录进行初始扫描...");
+watcher.on("ready", () =>
+  console.log("初始扫描结束，可以在pages下新建文件夹了")
+);
 
 watcher.on("addDir", (path, stats) => {
   clearTimeout(timer);

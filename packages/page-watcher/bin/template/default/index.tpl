@@ -7,12 +7,12 @@ import DataGrid from 'components/DataGrid'
 import Page from 'components/Page'
 
 // import usePermissions from 'utils/hooks/usePermissions'
-import Device from 'utils/Device'
+// import Device from 'utils/Device'
 import locale from 'locale'
 
 // {{note}}
 const {{functionName}} = () => {
-  const menuId = Device.getUrlParameter('menuId') || ''
+  //   const menuId = Device.getUrlParameter('menuId') || ''
   //   const permissions = usePermissions({ menuId })
   const tableRef = useRef(null)
 
